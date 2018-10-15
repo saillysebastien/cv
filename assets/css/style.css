@@ -662,7 +662,7 @@ p.counter {
   padding-top: 11em;
 }
 /*-- mail --*/
-.mail_grids textarea{
+/*.mail_grids textarea{
   outline: none;
   padding: 10px;
   color: #212121;
@@ -839,7 +839,7 @@ p.counter {
   margin: 2em 0 0;
 }
 .mail_grid textarea::-webkit-input-placeholder {
-  color: #212121 !important;
+  color: #212121 !important;*/
 }
 /*-- //mail --*/
 /*-- footer --*/
@@ -1471,5 +1471,31 @@ p.counter {
   .banner img {
     border: 5px solid #419ca6;
     width: 45%;
+  }
+}
+
+/*contact*/
+.modal-body:not(.two-col) {
+  padding:0px;
+}
+.glyphicon {
+  margin-right:5px;
+}
+.glyphicon-new-window {
+  margin-left:5px;
+}
+.modal-body .list-group {
+  margin-bottom: 0;
+}
+.margin-bottom-none {
+  margin-bottom: 0;
+}
+.modal-footer {
+  margin-top: 0px;
+}
+@media screen and (max-width: 325px){
+  .btn-close {
+    margin-top: 5px;
+    width: 100%;
   }
 }
